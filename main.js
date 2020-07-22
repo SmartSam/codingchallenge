@@ -12,7 +12,7 @@ var employees = [
 
 function getGroupEmployees(arrayEmployees) {  
     let groupNames = arrayEmployees.map(function (item) {
-        if(item.nameOrder && item.name === "reverse")
+        if(item.nameOrder && item.nameOrder === "reverse")
         return {
             group: item.group,
             name: item.last + ' ' + item.first
