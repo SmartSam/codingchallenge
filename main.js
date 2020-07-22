@@ -10,6 +10,31 @@ var employees = [
 
 // Part 2 Answer Here
 
+function getGroupEmployees(arrayEmployees) {  
+    let groupNames = arrayEmployees.map(function (item) {
+        if(item.nameOrder && item.name === "reverse")
+        return {
+            group: item.group,
+            name: item.last + ' ' + item.first
+        };
+        else
+        return {
+            group: item.group,
+            name: item.first + ' ' + item.last
+        };
+    });
+    let result = groupNames.reduce((c, v) => {
+       c[v.group] = c[v.group] || [];                         
+        c[v.group].push({name:v.name});   
+       return c;
+     }, {});
+
+    console.log(result);
+    return result;
+
+ }
+
+getGroupEmployees(employees);
 /*****************************************************************************************
 * Bonus
 ****************************************************************************************/
