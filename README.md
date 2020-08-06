@@ -1,13 +1,3 @@
-![](http://www.alsoenergy.com/wp/wp-content/uploads/FullColor_BlackTag-e1413573042293.png)
-
-# Coding Challenge
-- Clone this repo to your local machine
-- Use it to create a new repo on GitHub under your own account (please don't use GitHub fork to accomplish this)
-- Complete the challenges described below. For the javascript challenges, the main invocation of the solution should be in its place in main.js, but you may add other script files if desired.
-- Optionally, complete the Bonus challenge
-- Cleanup commit history to have 1 commit per challenge, in order, on the master branch.
-- Send us an email with a link to your repo
-
 ___
 ## Challenge 1. HTML and CSS
 Using index.html and style.css files, make a page that has a header bar, body with split content (left column menu, right column main content) and footer. Make the split content stack vertically for screens smaller than 600px wide, with content going above the menu. The header and footer background color should be different from that of the content. Colors, Sizing and other styling details are up to you (don't worry about style too much, you don't need to be a designer, just do something reasonable).
